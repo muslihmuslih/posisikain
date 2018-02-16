@@ -1,0 +1,97 @@
+/* Jika layar berukuran 980px atau kurang */
+
+@media screen and (max-width:980px) {
+	
+	#wrapper{
+		width: 96%;
+       
+	}
+	#maincontent{
+		width: 66%;
+	}
+
+    input[type=text] {
+        width: 100%;
+    }
+}
+
+img {
+    width: 30%;
+}
+
+input[type=text] {
+    width: 40%;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 10px grey;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+    background-image: url('search2.png');
+    background-position: 98% 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+select {
+    width: 150px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 2px solid #f1f1f1;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+    background-color: #f1f1f1;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 6px 5px 6px 8px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+/*hide button*/
+.button {
+    display: none;
+}
+
+
+/* Jika ukuran layar 680px atau kurang dari itu */
+
+@media screen and (max-width:680px){
+    
+    #maincontent{
+        width: auto;
+        float: none;
+    }
+
+    input[type=text] {
+        width: 100%;
+    }
+
+    img {
+        width: 70%;
+    }
+    
+}
+
+/* Jika ukuran layar 480px atau kurang */
+
+@media screen and (max-width: 480px) {
+	
+	#header{
+		height: auto;
+	}
+	
+	input[type=text] {
+    width: 100%;
+	}	
+
+    img {
+        width: 90%;
+    }
+}
+
